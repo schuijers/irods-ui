@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex h-[var(--header-height)] items-center border-t px-6 dark:border-gray-800">
+  <footer class="flex h-[var(--header-height)] items-center border-t border-gray-200 px-6 dark:border-gray-800">
     <a
       class="text-sm text-gray-500 dark:text-gray-400"
       href="https://github.com/schuijers/irods-ui"

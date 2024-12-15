@@ -3,5 +3,9 @@
     <NuxtLink aria-label="Home" to="/">
       <ILogo class="h-9 w-[117px]" aria-hidden />
     </NuxtLink>
+
+    <ISpacer />
+
+    <IColorModeToggle />
   </header>
 </template>
