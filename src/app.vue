@@ -10,6 +10,14 @@
   <IFooter />
 </template>
 
+<script setup lang="ts">
+useHead({
+  titleTemplate: titleChunk => {
+    return titleChunk ? `${titleChunk} - iRODS UI` : 'iRODS UI'
+  },
+})
+</script>
+
 <style>
 :root {
   --footer-height: 4rem;
