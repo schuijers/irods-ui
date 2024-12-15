@@ -11,8 +11,16 @@ export default defineNuxtConfig({
     },
   },
   compatibilityDate: '2024-12-15',
+  components: [
+    {
+      path: './components',
+      pathPrefix: false,
+      prefix: 'i',
+    },
+  ],
   devServer: {
     host: '0.0.0.0',
+    port: 4200,
   },
   devtools: {
     enabled: true,
