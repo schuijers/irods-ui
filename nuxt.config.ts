@@ -7,4 +7,5 @@ export default defineNuxtConfig({
     enabled: true,
   },
   modules: ['@nuxt/fonts', '@nuxt/image', '@nuxt/ui', '@vueuse/nuxt'],
+  srcDir: 'src/',
 })
